@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacepdfs.html#a0e55b3a927861280d8b2483400e584fd" title="Sample a particle&#39;s distance to next collision." alt="" coords="265,5,447,35"/>
+<area shape="rect" id="node11" href="$namespacepdfs.html#a748133cbe931f030e9920f4ae3530654" title="Sample the type of collision a particle undergoes." alt="" coords="277,59,435,88"/>
+<area shape="rect" id="node16" href="$namespacepdfs.html#a3fd9414624a8ebdd525a752a725ee76b" title="Sample the particle&#39;s direction (for the source)." alt="" coords="283,165,429,195"/>
+<area shape="rect" id="node21" href="$namespacepdfs.html#ad0661f4d96d6ffa4ab1062e6c30a0f0c" title="Get a particle position in the slab." alt="" coords="281,219,431,248"/>
+<area shape="rect" id="node24" href="$namespacepdfs.html#aabb98cbe94dd0a0da4eb02504e6a9421" title="Sample a particle&#39;s direction following a scattering event." alt="" coords="284,112,428,141"/>
+<area shape="rect" id="node5" href="$namespaceexecute.html#af909fbca56ea40dcd2f1d75f7759cd88" title="Perform transport of a single particle." alt="" coords="503,19,628,48"/>
+<area shape="rect" id="node7" href="$namespaceexecute.html#aa73b96026a346355dfb65c7b522a3c3a" title="Run the simulation." alt="" coords="683,85,829,115"/>
+<area shape="rect" id="node9" href="$main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d" title="main" alt="" coords="877,85,928,115"/>
+<area shape="rect" id="node13" href="$namespaceexecute.html#a288724b68370b9ea895e8620cca48d6c" title="Determine and handle an interaction." alt="" coords="497,85,633,115"/>
+<area shape="rect" id="node18" href="$namespaceparticle.html#a51cbe66c5da9fd84e01f10b7d755424f" title="Initialize a particle." alt="" coords="496,165,635,195"/>
+</map>

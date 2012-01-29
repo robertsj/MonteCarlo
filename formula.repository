@@ -1,0 +1,13 @@
+\form#0:\[ P(\textrm{absorption}) = \Sigma_a / \Sigma_t \]
+\form#1:\[ P(\textrm{scattering}) = \Sigma_s / \Sigma_t \, , \]
+\form#2:\[ S(k+1) = \textrm{modulo}[ (g \times S(k) + c), 2^M ] \, , \]
+\form#3:\[ r(k+1) = S(k+1)/2^M \, . \]
+\form#4:\[ g = 5^19 \, \]
+\form#5:\[ c = 0 \, \]
+\form#6:\[ S(0) = 5^19 \, \]
+\form#7:\[ M = 48 . \]
+\form#8:$ \textrm{modulo}[a,b] = a\, \textrm{mod} \, b $
+\form#9:$ S(k) $
+\form#10:$ S(0) $
+\form#11:\[ S(k) = \textrm{modulo}[ (g^k \times S(0) + c \times (g^k-1)/(g-1), 2^M ] \, , \]
+\form#12:$ c=0 $

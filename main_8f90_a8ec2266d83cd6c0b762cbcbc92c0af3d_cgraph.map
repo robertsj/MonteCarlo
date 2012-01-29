@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespaceglobal.html#ae42e2eadb6d745fd7bceefd6896f41b3" title="Allocate the tallies." alt="" coords="108,5,271,35"/>
+<area shape="rect" id="node5" href="$namespaceglobal.html#a844faec7b34adade529101bc2b8d2a93" title="Free the tallies." alt="" coords="120,59,259,88"/>
+<area shape="rect" id="node7" href="$namespaceexecute.html#a8b4656307e41eee00fa12ea2c2af1c94" title="Print the tally of each slab." alt="" coords="119,112,260,141"/>
+<area shape="rect" id="node11" href="$namespacegeometry.html#a795a9aa541f14c4e1d40ae4ae7acc2e0" title="Read user input to define the geometry." alt="" coords="104,165,275,195"/>
+<area shape="rect" id="node13" href="$namespacematerial.html#adfa3a98d962349749a9f6ee40b45cb8f" title="material::read_material" alt="" coords="112,219,267,248"/>
+<area shape="rect" id="node15" href="$namespaceexecute.html#aa73b96026a346355dfb65c7b522a3c3a" title="Run the simulation." alt="" coords="116,299,263,328"/>
+<area shape="rect" id="node9" href="$namespacetally.html#a2a304bd22ea282c2b627cc5b6866692f" title="Compute the mean." alt="" coords="372,99,529,128"/>
+<area shape="rect" id="node17" href="$namespaceexecute.html#a4802c5dca61dbec13241f089be562b43" title="Add the current tallies to the mean and variance." alt="" coords="379,152,523,181"/>
+<area shape="rect" id="node21" href="$namespaceexecute.html#a9193d177559dd39894137d8f849dc389" title="Determine the slab in which a particle resides." alt="" coords="380,205,521,235"/>
+<area shape="rect" id="node23" href="$namespacerandom__number__generator.html#a788b0b91e7bba457d2f04b46b54c33d5" title="Initialize the random number generator." alt="" coords="323,259,579,288"/>
+<area shape="rect" id="node25" href="$namespaceexecute.html#a288724b68370b9ea895e8620cca48d6c" title="Determine and handle an interaction." alt="" coords="383,312,519,341"/>
+<area shape="rect" id="node34" href="$namespaceparticle.html#a51cbe66c5da9fd84e01f10b7d755424f" title="Initialize a particle." alt="" coords="381,365,520,395"/>
+<area shape="rect" id="node42" href="$namespaceexecute.html#aa576ec2653a052f96f91ab05d4baa9a5" title="Reset the tally array." alt="" coords="377,432,524,461"/>
+<area shape="rect" id="node46" href="$namespaceexecute.html#af909fbca56ea40dcd2f1d75f7759cd88" title="Perform transport of a single particle." alt="" coords="388,499,513,528"/>
+<area shape="rect" id="node19" href="$namespacetally.html#a340ac839b4b22266d919ed2117b5bd8a" title="Reset a tally." alt="" coords="663,152,775,181"/>
+<area shape="rect" id="node27" href="$namespacepdfs.html#a748133cbe931f030e9920f4ae3530654" title="Sample the type of collision a particle undergoes." alt="" coords="640,245,797,275"/>
+<area shape="rect" id="node31" href="$namespacepdfs.html#aabb98cbe94dd0a0da4eb02504e6a9421" title="Sample a particle&#39;s direction following a scattering event." alt="" coords="647,299,791,328"/>
+<area shape="rect" id="node29" href="$namespacerandom__number__generator.html#a61a44434c7ecf814575e94f8e70bd1ed" title="Obtain a single random number." alt="" coords="860,352,1068,381"/>
+<area shape="rect" id="node36" href="$namespacepdfs.html#a3fd9414624a8ebdd525a752a725ee76b" title="Sample the particle&#39;s direction (for the source)." alt="" coords="645,352,792,381"/>
+<area shape="rect" id="node39" href="$namespacepdfs.html#ad0661f4d96d6ffa4ab1062e6c30a0f0c" title="Get a particle position in the slab." alt="" coords="644,405,793,435"/>
+<area shape="rect" id="node44" href="$namespacetally.html#a07e3463756d9b619d8fc2a296f87a324" title="Reset a tally." alt="" coords="661,459,776,488"/>
+<area shape="rect" id="node48" href="$namespacepdfs.html#a0e55b3a927861280d8b2483400e584fd" title="Sample a particle&#39;s distance to next collision." alt="" coords="628,512,809,541"/>
+</map>
