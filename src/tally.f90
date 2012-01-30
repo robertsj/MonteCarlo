@@ -70,11 +70,11 @@ contains
   subroutine perform_statistics(this, n_hist, dx)
 
     type(tally_type), intent(inout) :: this
-    double precision, intent(in)                :: dx
+    double precision, intent(in)    :: dx
     integer, intent(in)             :: n_hist
 
     ! compute mean
-    this%mean = this%s1/(dx * n_hist)
+    this%mean = this%s1 /(dx * n_hist)
 
   end subroutine perform_statistics
 

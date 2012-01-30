@@ -19,7 +19,7 @@ module random_number_generator
 
   private
 
-  public :: initialize_rng, rand
+  public :: initialize_rng, initialize_rng_history, rand
 
 contains
 
@@ -56,7 +56,7 @@ contains
   !>
   !> @param[in] 	n 		Current neutron history
   !============================================================================!
-  subroutine initialize_rng_history(n)
+  subroutine initialize_rng_history(n) 
   
     integer, intent(in) :: n
 		! do nothing.

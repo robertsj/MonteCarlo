@@ -91,21 +91,21 @@
 !> - "FUNDAMENTALS OF MONTE CARLO TRANSPORT", LA-UR-05-4983
 !>   http://...gov/publication/pdf/LA-UR-05-4983_Monte_Carlo_Lectures.pdf
 !-------------------------------------------------------------------------------
-module random_number_generator_p
+module random_number_generator
 
 
-	private ! default all module variables to be local within module routines
+  private ! default all module variables to be local within module routines
 
-	! 64-bit real and integers (could make available to transport routines)
-	integer, parameter :: R8 = selected_real_kind(15,307)
-	integer, parameter :: I8 = selected_int_kind(18)
+  ! 64-bit real and integers (could make available to transport routines)
+  integer, parameter :: R8 = selected_real_kind(15,307)
+  integer, parameter :: I8 = selected_int_kind(18)
 
-	! Public functions and subroutines for this module
-	public ::  rand                   ! Gives a uniform random number
-	public ::  initialize_rng         ! Initialize generator
-	public ::  initialize_particle    ! New subsequence for a history
+  ! Public functions and subroutines for this module
+  public ::  rand                     ! Gives a uniform random number
+  public ::  initialize_rng           ! Initialize generator
+  public ::  initialize_rng_history   ! New subsequence for a history
 
-	! Default LCG values
+  ! Default LCG values
   integer(I8), save :: g            =  19073486328125_I8 ! g, 5^19
   integer(I8), save :: c            =               0_I8 ! c = 0
   integer(I8), save :: Stride       =          152917_I8 ! default stride
@@ -131,8 +131,9 @@ contains
 
       S    = iand( iand( g*S, TwoToMMinus1) + c,  TwoToMMinus1 )
       rand = S * OneOver2toM 
+     ! print *, " rand = ", rand
 
-  end function RandomNum
+  end function rand
 
   !============================================================================!
   !> @brief Initiates the random number generator for a new problem.
@@ -178,17 +179,17 @@ contains
   !============================================================================!
   !> @brief Initiates the random number generator for a new problem.
   !>
-  !> Warning: ONLY CALL THIS FROM THE MASTER THREAD!
+  !> This could be made to have user input, but for now, stick with the same
+  !> interface as the other library.
   !>
-  !> @param[in]   UserS         Integer value of seed (default is 5^19)
-  !> @param[in]   UserString    Integer value of stride between histories
+  !> Warning: ONLY CALL THIS FROM THE MASTER THREAD!
   !============================================================================!
-  subroutine initialize_rng( UserS, UserStride )
+  subroutine initialize_rng( )
 
       implicit none
 
-      integer(I8), intent(in) :: UserS
-      integer(I8), intent(in) :: UserStride
+      integer(I8) :: UserS = 1234567_I8
+      integer(I8) :: UserStride = 0_I8 
 
       ! Update defaults if user gives nonzero seed and/or stride
       if( UserS .gt. 0_I8 ) then
@@ -220,4 +221,4 @@ contains
 
   end subroutine initialize_rng_history
 
-end module Random
+end module random_number_generator
